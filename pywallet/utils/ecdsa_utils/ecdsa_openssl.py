@@ -8,7 +8,7 @@ from ctypes import create_string_buffer
 
 from ecdsa_base import EllipticCurveBase
 from ecdsa_base import Point
-import openssl as ossl
+from . import openssl as ossl
 
 
 class ECPointAffine(object):
