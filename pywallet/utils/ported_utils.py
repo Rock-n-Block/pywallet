@@ -4,7 +4,6 @@ import hashlib
 import random
 import struct
 import os
-from ecdsa_utils import openssl as ossl
 import math
 from collections import namedtuple
 
