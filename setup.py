@@ -55,5 +55,6 @@ setup(
         'ecdsa>=0.11',
         'six>=1.8.0',
         'pycryptodome>=3.6.6',
+        'mnemonic'
     ]
 )
