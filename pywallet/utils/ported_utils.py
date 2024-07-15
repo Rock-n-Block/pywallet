@@ -4,7 +4,7 @@ import hashlib
 import random
 import struct
 import os
-import openssl as ossl
+from . import openssl as ossl
 import math
 from collections import namedtuple
 
