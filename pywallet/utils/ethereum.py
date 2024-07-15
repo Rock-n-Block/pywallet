@@ -17,12 +17,12 @@ import hashlib
 import hmac
 from mnemonic.mnemonic import Mnemonic
 import random
-from ported_utils import bytes_to_str
-from ported_utils import address_to_key_hash
-from ported_utils import rand_bytes
-from ecdsa_utils.ecdsa_base import Point
-from ecdsa_utils import ECPointAffine
-from ecdsa_utils import secp256k1
+from .ported_utils import bytes_to_str
+from .ported_utils import address_to_key_hash
+from .ported_utils import rand_bytes
+from .ecdsa_utils.ecdsa_base import Point
+from .ecdsa_utils import ECPointAffine
+from .ecdsa_utils import secp256k1
 
 bitcoin_curve = secp256k1()
 
